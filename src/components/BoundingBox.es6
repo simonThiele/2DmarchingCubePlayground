@@ -14,7 +14,7 @@ export default function BoundingBox() {
       return;
     }
     minX = Math.min(minX, voxel.x);
-    maxX = Math.max(minX, voxel.x);
+    maxX = Math.max(maxX, voxel.x);
     minY = Math.min(minY, voxel.y);
     maxY = Math.max(maxY, voxel.y);
   });
