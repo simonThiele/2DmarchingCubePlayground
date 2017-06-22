@@ -23,6 +23,10 @@ module.exports = {
         ]
       },
       {
+        test: /\.(jpe?g|gif|png|svg)$/i,
+        use: [{ loader: 'url-loader?limit=3000!image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false' }]
+      },
+      {
         test: /\.es6$/i,
         use: [
           {

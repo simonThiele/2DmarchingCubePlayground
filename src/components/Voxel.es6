@@ -15,7 +15,7 @@ export default function Voxel() {
             key={v.id}
             className={`${block}__single`}
             style={{
-              background: v.marked ? '#00ff84' : '#777',
+              background: v.marker ? '#00ff84' : '#777',
               left: `${v.x}%`,
               top: `${v.y}%`
             }}

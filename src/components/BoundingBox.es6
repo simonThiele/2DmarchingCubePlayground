@@ -14,7 +14,7 @@ export default function BoundingBox() {
 
   voxelData.forEach(row => {
     row.forEach(voxel => {
-      if (!voxel.marked) {
+      if (!voxel.marker) {
         return;
       }
       minX = Math.min(minX, voxel.x);

@@ -11,8 +11,8 @@ const block = 'app';
 export default function App() {
   return (
     <div className={block}>
-      <MarchingSquares />
       <Voxel />
+      <MarchingSquares />
       <BoundingBox />
     </div>
   );
